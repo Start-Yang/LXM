@@ -47,10 +47,8 @@ S.Drawing = (function () {
             requestFrame.call(window, this.loop.bind(this));
         },
         adjustCanvas: function () {
-            var w = window.innerWidth;
-            var h = window.innerHeight;
-            canvas.width = w - (w <= 768 ? 20 : 100);   // 手机边距减小
-            canvas.height = h - (h <= 768 ? 10 : 30);
+            canvas.width = window.innerWidth - 100;
+            canvas.height = window.innerHeight - 30;
         },
         clearFrame: function () {
             context.clearRect(0, 0, canvas.width, canvas.height);
