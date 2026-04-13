@@ -55,35 +55,3 @@ $(function () {
         }, 1000);
     }
 });
-@media (max-width: 768px) {
-    .background {
-        background-size: cover;
-        padding: 20px;
-    }
-    .info img {
-        max-width: 100%;
-        height: auto;
-    }
-    .title {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .time-box {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    .days, .hours, .min, .sec {
-        width: 70px;
-        text-align: center;
-    }
-    .days p, .hours p, .min p, .sec p {
-        font-size: 2rem;
-    }
-    .sub-title {
-        font-size: 0.8rem;
-        text-align: center;
-        word-break: break-word;
-    }
-}
