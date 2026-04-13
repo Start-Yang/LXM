@@ -47,7 +47,7 @@ $(function () {
         var futureDate = new Date(time);
 
         if (new Date(time) - new Date() <= 0) {
-            window.location.href = '../index3.html';
+            window.location.href = 'index3.html';
         }
 
         order_time = setInterval(function () {
