@@ -508,3 +508,11 @@ S.Shape = (function () {
     };
 })();
 S.init();
+@media (max-width: 768px) {
+    canvas.canvas {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    /* 如果 canvas 内的文字或图形需要调整，可以在 index2.js 中根据屏幕宽度动态设置 */
+}
